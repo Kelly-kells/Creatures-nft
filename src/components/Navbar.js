@@ -14,28 +14,28 @@ function Navbar() {
         </NavLink>
 
         <ul className={click ? "nav-menu active" : "nav-menu"}>
-          <li className="nav-item animate__animated animate__delay-2s animate__fadeInLeft">
+          <li className="nav-item animate__animated animate__delay-1s animate__fadeInLeft">
             <NavLink to="/"
              activeclassName="active" id="nav-links"
              onClick={handleClick}>
               Home
             </NavLink>
           </li>
-          <li className="nav-item animate__animated  animate__delay-2s animate__fadeInLeft">
+          <li className="nav-item animate__animated  animate__delay-1s animate__fadeInLeft">
             <NavLink to="/summon" 
             activeclassName="active" id="nav-links"
             onClick={handleClick}>
               Summon
             </NavLink>
           </li>
-          <li className="nav-item animate__animated animate__delay-2s animate__fadeInLeft">
+          <li className="nav-item animate__animated animate__delay-1s animate__fadeInLeft">
             <NavLink to="/docs" 
             activeclassName="active" id="nav-links"
             onClick={handleClick}>
               Docs
             </NavLink>
           </li>
-          <li className="nav-item animate__animated animate__delay-2s animate__fadeInLeft">
+          <li className="nav-item animate__animated animate__delay-1s animate__fadeInLeft">
             <NavLink to="/connect" 
             activeclassName="active" id="nav-links"
             onClick={handleClick}>

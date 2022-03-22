@@ -4,6 +4,7 @@ import { Summon } from "./components/pages/Summon";
 import { Docs } from "./components/pages/Docs";
 import { Connect } from "./components/pages/Connect";
 import Navbar from "./components/Navbar";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const App = () => {
   return (
