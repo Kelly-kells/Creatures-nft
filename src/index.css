@@ -4,7 +4,11 @@ body{
  color: #fff;
   scroll-behavior: smooth;
   background-image: url("https://cdn.discordapp.com/attachments/954712064054669372/955471887213920296/BlurredBG_WEB.png");
+  background-repeat: no-repeat ;
  background-size: cover;
+ height: 100vh;
+
+
 }
 *{
   margin: 0;
@@ -108,6 +112,14 @@ body{
   width: 140px;
   color: #fff !important;
 }
+.creature2{
+  position: absolute;
+  top: -90;
+  left: -30%;
+}
+.page-one-creature{
+  margin-left: 150px;
+}
 
 
 
@@ -122,6 +134,13 @@ body{
 
 
 @media  screen and (max-width:960px) {
+ body{
+   width: 100%;
+   background-size: cover;
+   height: 100vh;
+
+
+ }
   .nav-menu{
    display: flex;
    flex-direction: column;
@@ -141,7 +160,10 @@ body{
     transform: translate(-100, 60%);
     font-size:1.8rem;
     cursor: pointer;
-    color: cyan;
+    
+  }
+  .nav-logo{
+    margin-left:0 ;
   }
   #nav-links{
     padding: 1rem;
@@ -153,9 +175,13 @@ body{
     border: none;
   }
   .nav-menu.active{
-    background-color: #40916c;
-    left:0px;
+    background-color: #000;
+    left:5px;
     opacity: 1;
     transition: all 0.5s ease;
   }
+.page-one-text{
+  font-size: 1rem;
+  font-weight: 600;
+}
 }

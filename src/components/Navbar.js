@@ -10,7 +10,7 @@ function Navbar() {
     <nav className="navbar">
       <div className="nav-container">
         <NavLink to="/" className="nav-logo">
-        
+          <img src="https://media.discordapp.net/attachments/954712064054669372/955811288397803560/CTD_Logo.png?width=350&height=100" alt="" />
         </NavLink>
 
         <ul className={click ? "nav-menu active" : "nav-menu"}>
