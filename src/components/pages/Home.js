@@ -3,8 +3,8 @@ import {Col, Row, Container,Button} from "react-bootstrap"
 export const Home = () => {
   return (
 
- <div>
-   <Container className='container'>
+ <div className='container'>
+   <Container >
 <Row >
   <Col className="page-one-text animate__animated animate__delay-2s animate__fadeInLeft" >
      <h1>First P2E Tower Defense <br/>game

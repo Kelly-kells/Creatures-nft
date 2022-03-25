@@ -39,7 +39,7 @@ function Navbar() {
             <NavLink to="/connect" 
             activeclassName="active" id="nav-links"
             onClick={handleClick}>
-              Connect
+             <span>.</span>Connect
             </NavLink>
           </li>
         </ul>
